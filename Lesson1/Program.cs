@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Controller ctrl = new Controller(args);
+            ctrl.Start();
         }
     }
 }
